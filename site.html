@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="get" action=".">
+        <fieldset>
+            <legend> &#x1F3E4; </legend> 
+            <img id="titulo" src="site/assets/imagens/title.png" alt="" width="150px">
+            <h2 id="titulo"> Calcule seu CEP! </h2>
+
+
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" placeholder="00000-000"/><br />
+            <button type="button" id="botaoBuscar">Pesquisar</button>
+
+            <table id="tabela">
+                <tr>
+                    <td>Estado:
+                        <div><input name="uf" id="uf" type="text" placeholder="Estado..."> </td></div>
+                </tr>
+                <tr>
+                    <td> Cidade: 
+                        <div><input name="cidade" id="cidade" type="text" placeholder="Cidade..."> </td></div>
+                </tr>
+                <tr>
+                    <td> Bairro:
+                        <div><input name="bairro" id="bairro" type="text" placeholder="Bairro..."></td></div>
+                </tr>
+                <tr>
+                    <td> Rua:
+                        <div><input name="rua" id="rua" type="text" placeholder="Rua..."> </td></div>
+                </tr>
+                    <input name="ibge" type="hidden" id="ibge" size="8" /></label><br />
+            </table>    
+        </fieldset>
+
+        <div>
+            
+            <p id="titulo">Creditos:</p>
+            
+            <p id="in">Ricardo Consort Marques Pereira 04159466</p>
+            <p id="in">Nicolas Eduardo Aires de Souza 04169776</p>
+            <p id="in">Lucas Augusto de Melo Xavier 04162557</p>
+            <p id="in">Lucas Bendes Fernandes 04159151</p></div>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

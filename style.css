@@ -1,0 +1,106 @@
+
+body{
+    background-image: url(site/assets/imagens/background.jpg);
+    background-position: center;
+    background-color: black;
+}
+    table, td, th{
+        border: 1px solid rgb(255, 255, 255); margin-left: auto; margin-right: auto;
+        border-radius: 4px;
+    }
+    #titulo{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    @font-face {
+        font-family: mario ;
+        src: url('TypefaceMarioWorldPixelFilledRegular-Yz84q.otf');
+    }
+    h2{
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        border-color:yellow;
+        border-radius: 50%;
+        font-family: url("TypefaceMarioWorldPixelOutlineRegular-MVzKp.ttf"); 
+    }
+#titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    }
+#tabela{
+    color:rgb(255, 255, 255); margin-bottom: 10%;
+    font-weight: bold;
+    border: none;
+}
+#linha{
+    margin-left: 0%;
+    border-radius: 4px;
+    border: none;}
+
+
+fieldset{
+    text-align: left;
+    margin-left: 40% ; margin-right: 40%; margin-top: 10%;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(250, 145, 145, 0.534);
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+button{
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 61, 57);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 140px ;
+
+    
+}
+
+#cep{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+
+}
+
+#uf{
+    border-radius: 4px;
+    border: none;
+}
+
+#cidade{
+    border-radius: 4px;
+    border: none;
+}
+
+#bairro{
+    border-radius: 4px;
+    border: none;
+}
+
+#rua{
+
+    border-radius: 4px;
+    border: none;
+}
+
+#in{
+    color: white;
+    margin-left: 40%;
+}
